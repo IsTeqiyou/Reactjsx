@@ -27,7 +27,7 @@ import Card2 from "./m9/praktek1.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ProductList />
+    <FetchDataComponent/>
   </StrictMode>
 );
   

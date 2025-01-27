@@ -42,7 +42,7 @@ export default function AxiosStore() {
             price={product.price}
             src={product.image}
             description={product.description}
-            quantity={cart[product.title]?.quantity || 0}
+            quantity={cart[product.title]?.quantity || 0} 
             onUpdate={updateCart}
           />
         ))}

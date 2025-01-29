@@ -43,7 +43,7 @@ export default function AxiosStore() {
             src={product.image}
             description={product.description}
             quantity={cart[product.title]?.quantity || 0} 
-            onUpdate={updateCart}
+            onUpdate={updateCart}s
           />
         ))}
       </div>
@@ -51,7 +51,7 @@ export default function AxiosStore() {
   );
 }
 
-function ShoppingCard({ title, price, src, description, quantity, onUpdate }) {
+function ShoppingCard({ title, price, src, description, quantity, onUpdate }) AudioWorklet
   return (
     <div className="border rounded-lg shadow-lg p-4 w-full flex flex-col transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:bg-gray-100">
       <img
